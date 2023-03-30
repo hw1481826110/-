@@ -1,5 +1,5 @@
 安装
-安装好docker服务，命令行直接执行：
+安装好docker服务，命令行直接执行命令行：
 
 docker run -d -v /tmp/ql:/ql/data -p 5700:5700 --name qinglong --hostname qinglong --restart unless-stopped whyour/qinglong:2.13.3
 其中/tmp/ql为本地存储青龙数据的路径，可以自行更改
